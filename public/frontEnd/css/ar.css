@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+@import 'http://fonts.googleapis.com/earlyaccess/droidarabickufi.css';
+
+body, h1, h2, h4, h3, h5, h6, p, label, input, li, span, strong, a {
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
+}
+
+
+.sec_login form,
+.page_profile .row,
+.sec_details_prod,
+.bootstrap-select .dropdown-menu,
+.product_info_right,
+.page_privacy,
+.page_gallery .row,
+.title_best_seller,
+.border_after,
+.sec_category_products .row,
+.contact_info,
+.collection_info,
+.sec_category_products .item_view,
+.sec_category_products .row,
+.filter_products,
+.counter_site,
+.about_info,
+.page_title,
+footer,
+.sec_subscribe,
+.sec_crowning .row,
+.sec_services .row,
+.sec_about .row,
+header {
+    direction: rtl;
+}
+
+.float-right {
+    float: left!important;
+}
+
+.mega_menu .item ul li img,
+.float-left {
+    float: right!important;
+}
+.container-fluid{
+    /*width: 103% !important;*/
+}
+.sec_login form,
+.page_profile .row,
+.sec_details_prod,
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner,
+.bootstrap-select .dropdown-menu,
+.product_info_right,
+.page_privacy,
+.page_gallery .row,
+.title_best_seller,
+.border_after,
+.sec_category_products .txt_info,
+.contact_info,
+.collection_info,
+.slide_related .item .txt_info .price, .sec_products .item .txt_info .price,
+.this_types_select,
+.styles_select,
+.sec_category_products .body_cat aside article div > h4,
+.page_cart .item_view .item .cart_price h3,
+.page_cart .item_view .item .info_cart,
+.about_info,
+.page_title,
+footer,
+.sec_crowning .item.item_right .txt_item_crowning,
+.sec_crowning .row,
+.sec_services .item,
+.txt_about,
+header .right_controler_head .cart .sub_total h5,
+header .right_controler_head .cart .cart_menu li,
+.mega_menu .item ul li,
+header .head_top .left_head {
+    text-align: right;
+}
+
+header .head_top a,
+.mega_menu .item ul li img,
+header nav .nav_links > ul.navbar-nav > li > a {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.mega_menu .row > div > .item::after,
+header nav .nav_links > ul.navbar-nav > li > a.active::after, header nav .nav_links > ul.navbar-nav > li > a:hover::after {
+    left: auto;
+    right: 100%;
+}
+header nav .nav_links > ul.navbar-nav > li > a::after {
+    left: auto;
+    right: 0%;
+}
+
+.mega_menu .item img.img_show_mega {
+    margin: auto;
+    display: block;
+}
+
+header .right_controler_head .cart .cart_menu {
+    right: auto;
+    left: 0;
+}
+
+.sec_banner .caption {
+    left: auto;
+    right: 20%;
+    text-align: right;
+}
+
+.sec_services .item .txt_serv h1 {
+    padding-left: 0px;
+    padding-right: 90px;
+}
+.sec_gallery .slick-slide > div > div {
+    direction: rtl;
+    text-align: right;
+}
+
+
+.bootstrap-select .dropdown-menu,
+.product_details .title_best_seller h3::before,
+.product_details .title_best_seller h3::after,
+.border_after::before,
+.border_after::after,
+.title_info h4::after,
+.bootstrap-select .dropdown-toggle .filter-option,
+.title_info h4::before,
+footer .wedget_item h3::after,
+footer .wedget_item h3::before {
+    left: auto;
+    right: 0;
+}
+
+.navbar-light .navbar-toggler span {
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+
+.page_title h1 {
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.number_pl {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+
+.page_cart .item_view .item .cart_price span.cart_remove,
+header .right_controler_head .cart .cart_menu {
+    right: auto;
+    left: 10px;
+}
+
+
+.product_details aside article .item a.img_be,
+.number_pl,
+.page_cart .item_view .item .info_cart:not(.input-group)>.bootstrap-select.form-control:not([class*=col-]) {
+    float: right;
+}
+
+
+.range-slider>div input {
+    font-size: 13px;
+}
+
+.slide_related .item .txt_info a.add_to_cart, .sec_products .item .txt_info a.add_to_cart {
+    right: auto;
+    left: 20px;
+}
+
+
+.page_contact .contact_info .info_details li i {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+
+.product_details .row {
+    direction: ltr;
+}
+
+
+
+@media (min-width: 991px) {
+    .this_grid>div.col-lg-12.col-md-12 .item .img_rings {
+        float: right !important;
+        border-right: unset !important;
+        border-left: 1px solid #cccccc !important;
+    }
+    .sec_products .this_grid>div.col-lg-12.col-md-12 .item .txt_info .title {
+        text-align: right !important;
+    }
+
+    .this_grid>div.col-lg-12.col-md-12 .item .txt_info {
+        float: right !important;
+        padding-left: 0 !important;
+        padding-right: 30px !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .sec_services .item .txt_serv h1 {
+        padding-left: 0px !important;
+        padding-right: 60px !important;
+        font-size: 2rem !important;
+    }
+
+    .sec_banner .caption {
+        left: auto !important;
+        right: auto !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .sec_banner .caption a {
+        margin: auto
+    }
+
+    .sec_subscribe h1 {
+        font-size: 1.5rem;
+    }
+    
+    .number_pl,
+    .page_cart .item_view .item .info_cart:not(.input-group)>.bootstrap-select.form-control:not([class*=col-]) {
+        float: none !important;
+        width: 100% !important;
+    }
+
+    .number_pl {
+        margin: auto !important;
+        display: block !important;
+    }
+
+}
+
